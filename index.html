@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Techy Software - Innovative Software Solutions">
+    <meta name="keywords" content="Software, AI, Solutions, Technology">
+    <meta name="author" content="Magesh S P">
+    <title>Techy Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav>
+        <div class="container">
+            <div class="logo">Techy Software</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content section">
+            <h1>Innovative Solutions, Tailored to Your Needs</h1>
+            <p>Empowering businesses with cutting-edge technology and AI-driven solutions.</p>
+            <a href="#contact" class="cta-button">Let’s Talk</a>
+        </div>
+        <div class="image-content">
+           <img src="./portfolio-img/hero-section-img.png"/>
+        </div>
+        <!-- Help Button (Sticky) -->
+        <div class="help-btn">
+            <!-- <i class="fas fa-question-circle"></i> -->
+            <p>Feedback</p>
+        </div>
+
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container section">
+            <h2>About Techy Software</h2>
+            <p>At Techy Software, we are committed to providing scalable software solutions that help businesses streamline operations and stay ahead of the competition. Our focus is on delivering high-quality services in software development, AI, and IT consulting.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-robot"></i>
+                    <h3>Artificial Intelligence</h3>
+                    <p>We offer advanced AI solutions that help businesses automate tasks and gain valuable insights from data.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Custom Software Development</h3>
+                    <p>Our experienced developers build custom software tailored to your business needs, improving efficiency and productivity.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>IT Consulting</h3>
+                    <p>We provide expert consulting services, helping businesses adopt the latest technology trends and improve infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2>Our Portfolio</h2>
+        <p>Explore some of the projects we've delivered to our clients with exceptional quality and results.</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="./portfolio-img/A-Complete-Guide-on-AI-based-Data-Analytics-Platform-Development.jpg" alt="Project 1">
+                <h3>AI-Driven Analytics Platform</h3>
+                <p>An innovative AI platform that provides real-time analytics for large data sets.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./portfolio-img/Screenshot-2024-08-27-at-19.18.46-2048x1159.png" alt="Project 2">
+                <h3>Custom CRM Software</h3>
+                <p>A CRM system designed to streamline client interactions and enhance customer relationships.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./portfolio-img/Student-linker-final-1536x861.png" alt="Project 3">
+                <h3>eCommerce Mobile App</h3>
+                <p>A mobile-first eCommerce app that delivers a seamless shopping experience for customers.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./portfolio-img/ien-toan-dam-may-la-gi.jpg" alt="Project 4">
+                <h3>Cloud Infrastructure Setup</h3>
+                <p>Cloud-based infrastructure setup for a large-scale enterprise, ensuring security and scalability.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" >
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="contactname" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="contactemail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>  
+                      
+        </div>
+    </section>
+
+    <!-- Hidden Feedback Form -->
+    <div id="feedbackFormContainer" class="feedback-form-container">
+        <div class="feedback-form">
+            <span id="closeFeedbackForm" class="close-icon">&times;</span>
+            <h2>We Value Your Feedback</h2>
+            <form id="feedbackForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="feedbackname" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="feedbackemail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedbackMessage">Your Feedback:</label>
+                    <textarea id="feedbackMessage" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2024 Techy Software. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="./index.js"></script>
+</html>
